@@ -1,4 +1,4 @@
-# android_tool
+# flutter_android_toolbox
 
 作为一个Android开发者，在开发过程中经常会用到ADB命令，每次进行手敲都觉得麻烦得很，尤其是有些命令忘记了，还得去查，浪费时间，影响效率，于是用Flutter把一些常用的ADB命令封装成一个应用。
 
