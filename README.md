@@ -6,8 +6,8 @@
 通过执行ADB命令来操控Android设备，实现一些常用的功能，方便在进行Android开发时进行调试，目前在Windows和Mac OS可以运行，Linux上待验证，支持一些常用ADB命令以及文件管理，并且支持拖拽文件进行文件传输和安装APK，以及支持查看Log功能。
 
 ### 演示
-![alt screenshot1]([https://github.com/huangbqsky/flutter-android-toolbox/screenshot/screenshot1.png)
-![alt screenshot2](https://github.com/huangbqsky/flutter-android-toolbox/screenshot/screenshot2.png)
+![alt screenshot1](https://github.com/huangbqsky/flutter-android-toolbox/blob/main/screenshot/screenshot1.png)
+![alt screenshot2](https://github.com/huangbqsky/flutter-android-toolbox/blob/main/screenshot/screenshot1.png)
 
 ## 实现
 
