@@ -6,7 +6,6 @@ import 'package:android_tool/page/main/devices_model.dart';
 import 'package:android_tool/widget/adb_setting_dialog.dart';
 import 'package:android_tool/widget/text_view.dart';
 import 'package:desktop_drop/desktop_drop.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
