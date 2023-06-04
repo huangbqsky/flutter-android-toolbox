@@ -3,6 +3,7 @@ import 'package:android_tool/page/common/base_page.dart';
 import 'package:android_tool/page/feature_page/feature_page.dart';
 import 'package:android_tool/page/file_manager/file_manager_page.dart';
 import 'package:android_tool/page/main/devices_model.dart';
+import 'package:android_tool/page/devices_info/devices_info_page.dart';
 import 'package:android_tool/widget/adb_setting_dialog.dart';
 import 'package:android_tool/widget/text_view.dart';
 
@@ -47,7 +48,7 @@ class _MainPageState extends BasePage<MainPage, MainViewModel> {
                 devicesView(),
                 const SizedBox(height: 20),
                 // const Divider(height: 1),
-                // _leftItem("images/ic_devices_info.svg", "设备信息", 0),
+                _leftItem("images/ic_devices_info.svg", "设备信息", 0),
                 _leftItem("images/ic_quick_future.svg", "快捷功能", 1),
                 _leftItem("images/ic_folder.svg", "文件管理", 2),
                 _leftItem("images/ic_log.svg", "LogCat", 3),
@@ -73,12 +74,12 @@ class _MainPageState extends BasePage<MainPage, MainViewModel> {
   }
 
   Widget buildContent(int value) {
-    // if (value == 0) {
-    //   return DevicesInfoPage(
-    //     deviceId: viewModel.deviceId,
-    //     packageName: viewModel.packageName,
-    //   );
-    // } else
+    if (value == 0) {
+      return DevicesInfoPage(
+        deviceId: viewModel.deviceId,
+        // packageName: viewModel.packageName,
+      );
+    } else
     if (value == 1) {
       return FeaturePage(deviceId: viewModel.deviceId);
     } else if (value == 2) {

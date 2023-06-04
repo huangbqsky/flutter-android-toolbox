@@ -7,12 +7,12 @@ import 'package:provider/provider.dart';
 
 class DevicesInfoPage extends StatefulWidget {
   final String deviceId;
-  final String packageName;
+  // final String packageName;
 
   const DevicesInfoPage({
     Key? key,
     required this.deviceId,
-    required this.packageName,
+    // required this.packageName,
   }) : super(key: key);
 
   @override
@@ -54,7 +54,7 @@ class _DevicesInfoPageState
     return DevicesInfoViewModel(
       context,
       widget.deviceId,
-      widget.packageName,
+      // widget.packageName,
     );
   }
 }

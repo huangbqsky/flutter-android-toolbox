@@ -8,7 +8,7 @@ class DevicesInfoViewModel extends FeatureViewModel {
   DevicesInfoViewModel(
     BuildContext context,
     String deviceId,
-    String packageName,
+    // String packageName,
   ) : super(context, deviceId);
 
   Future<void> getScreenshot() async {
