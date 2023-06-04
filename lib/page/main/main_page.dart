@@ -53,7 +53,7 @@ class _MainPageState extends BasePage<MainPage, MainViewModel> {
                 _leftItem("images/ic_folder.svg", "文件管理", 2),
                 _leftItem("images/ic_log.svg", "LogCat", 3),
                 _leftItem("images/ic_settings.svg", "设置", 4),
-                _leftItem("images/ic_settings.svg", "测试", 5),
+                // _leftItem("images/ic_settings.svg", "测试", 5),
               ],
             ),
           ),
@@ -89,7 +89,8 @@ class _MainPageState extends BasePage<MainPage, MainViewModel> {
     } else if (value == 4) {
       return AdbSettingDialog(viewModel.adbPath);
     } else {
-      return const CustomPaintRoute ();
+      // return const CustomPaintRoute ();
+      return Container();
     }
   }
 
