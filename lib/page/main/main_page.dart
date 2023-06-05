@@ -48,7 +48,7 @@ class _MainPageState extends BasePage<MainPage, MainViewModel> {
                 devicesView(),
                 const SizedBox(height: 20),
                 // const Divider(height: 1),
-                _leftItem("images/ic_devices_info.svg", "设备信息", 0),
+                // _leftItem("images/ic_devices_info.svg", "设备信息", 0),
                 _leftItem("images/ic_quick_future.svg", "快捷功能", 1),
                 _leftItem("images/ic_folder.svg", "文件管理", 2),
                 _leftItem("images/ic_log.svg", "LogCat", 3),
@@ -74,12 +74,12 @@ class _MainPageState extends BasePage<MainPage, MainViewModel> {
   }
 
   Widget buildContent(int value) {
-    if (value == 0) {
-      return DevicesInfoPage(
-        deviceId: viewModel.deviceId,
-        // packageName: viewModel.packageName,
-      );
-    } else
+    // if (value == 0) {
+    //   return DevicesInfoPage(
+    //     deviceId: viewModel.deviceId,
+    //     // packageName: viewModel.packageName,
+    //   );
+    // } else
     if (value == 1) {
       return FeaturePage(deviceId: viewModel.deviceId);
     } else if (value == 2) {
