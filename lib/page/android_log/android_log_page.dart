@@ -8,6 +8,7 @@ import 'package:flutter_list_view/flutter_list_view.dart';
 import 'package:provider/provider.dart';
 import 'package:substring_highlight/substring_highlight.dart';
 
+// LogCat日志Page
 class AndroidLogPage extends StatefulWidget {
   final String deviceId;
 

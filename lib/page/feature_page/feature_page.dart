@@ -6,6 +6,7 @@ import 'package:desktop_drop/desktop_drop.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+// 快捷功能 Page
 class FeaturePage extends StatefulWidget {
   final String deviceId;
 

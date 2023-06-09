@@ -5,6 +5,7 @@ import 'package:android_tool/page/devices_info/devices_info_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+// 设备信息Page
 class DevicesInfoPage extends StatefulWidget {
   final String deviceId;
   // final String packageName;

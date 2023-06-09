@@ -8,6 +8,7 @@ import 'package:selector_plus/selector_plus.dart';
 import 'file_manager_view_model.dart';
 import 'file_model.dart';
 
+// 文件管理Page
 class FileManagerPage extends StatefulWidget {
   final String deviceId;
 
